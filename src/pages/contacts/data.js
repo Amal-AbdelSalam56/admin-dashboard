@@ -1,0 +1,77 @@
+
+export const rows = [
+    {
+        id: 1,
+        registerId:234 ,
+        name: 'amal ibrahim',
+        email: 'World@fhxdthxfd',
+        age: 30,
+        phone: '01276925856',
+        city: 'cairo',
+    },
+    {
+        id: 2,
+        registerId:467 ,
+        name: 'amal ibrahim',
+        email: 'World@fhxdthxfd',
+        age: 30,
+        phone: '01276925856',
+        city: 'alex',
+    },
+    {
+        id: 3,
+        registerId:236 ,
+        name: 'amal ibrahim',
+        email: 'World@fhxdthxfd',
+        age: 30,
+        phone: '01276925856',
+        city: 'aswan',
+    },
+    {
+        id: 4,
+        registerId:455 ,
+        name: 'amal ibrahim',
+        email: 'World@fhxdthxfd',
+        age: 30,
+        phone: '01276925856',
+        city: 'alex',
+    },
+    {
+        id: 5,
+        registerId:34 ,
+        name: 'amal ibrahim',
+        email: 'World@fhxdthxfd',
+        age: 30,
+        phone: '01276925856',
+        city: 'banha',
+    },
+    {
+        id: 6,
+        registerId:45 ,
+        name: 'amal ibrahim',
+        email: 'World@fhxdthxfd',
+        age: 30,
+        phone: '01276925856',
+        city: 'cairo',
+    },
+    {
+        id: 7,
+        registerId:777 ,
+        name: 'amal ibrahim',
+        email: 'World@fhxdthxfd',
+        age: 30,
+        phone: '01276925856',
+        city: 'cairo',
+    },
+    
+];
+
+export  const columns = [
+    { field: 'id',    headerName: 'Id', width: 33, align: "center", headerAlign: "center" },
+    { field: 'registerId',  headerName: 'Register Id', align: "center", headerAlign: "center" },
+    { field: 'name', headerName: 'Name', flex: 1, align: "center", headerAlign: "center" },
+    { field: 'email', headerName: 'Email', flex: 1, align: "center", headerAlign: "center" },
+    { field: 'age',   headerName: 'Age', align: "center", headerAlign: "center" , width: 33},
+    { field: 'phone', headerName: 'Phone', flex: 1, align: "center", headerAlign: "center" },
+    { field: 'city',headerName: "City",flex: 1, align: "center", headerAlign: "center" },
+  ];
